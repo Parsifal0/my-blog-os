@@ -1,0 +1,1 @@
+This folder contains code of  "A Freestanding Rust Binary", which is written for RISC-V arch.

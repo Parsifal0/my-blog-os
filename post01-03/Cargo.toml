@@ -1,0 +1,18 @@
+[package]
+name = "myos"
+version = "0.1.0"
+authors = ["Parsifal0"]
+edition = "2018"
+
+[profile.dev]
+opt-level = 0
+lto = false
+panic = "abort"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[dependencies]
